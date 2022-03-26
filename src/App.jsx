@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-     
-    <div>Hello todos</div>
+    <div className='todo-app'>
+      <TodoList />
+    </div>
   );
 }
 
